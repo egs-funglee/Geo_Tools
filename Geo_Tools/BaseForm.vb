@@ -1,5 +1,4 @@
 ﻿Imports System.IO
-Imports IniParser
 Imports IniParser.Model
 Public Class Baseform
     Public textbox_filedialog_title As String
