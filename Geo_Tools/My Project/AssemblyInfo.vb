@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("A set of tools to work with common encountered issue for Geo")>
 <Assembly: AssemblyCompany("EGS (Asia) Ltd.")>
 <Assembly: AssemblyProduct("")>
-<Assembly: AssemblyCopyright("Copyright ©  2022")>
+<Assembly: AssemblyCopyright("Copyright ©  2023")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,6 +31,6 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("2022.04.20.0")>
-<Assembly: AssemblyFileVersion("2022.04.20.0")>
+<Assembly: AssemblyVersion("2023.07.18.0")>
+<Assembly: AssemblyFileVersion("2023.07.18.0")>
 <Assembly: NeutralResourcesLanguage("en")>
