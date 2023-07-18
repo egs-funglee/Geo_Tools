@@ -1095,7 +1095,7 @@ Partial Class Baseform
         Me.Name = "Baseform"
         Me.Opacity = 0.95R
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Geo tools - v20230714"
+        Me.Text = "Geo tools - v20230718"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
