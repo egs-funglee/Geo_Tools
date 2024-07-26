@@ -24,8 +24,8 @@
     End Function
 
     Public Function To_CNV_String() As String 'output_option 0 new
-        Return day & RSet(hhmmsss, 14) & RSet(rec.ToString, 8) & RSet(x.ToString("F2"), 13) & RSet(y.ToString("F2"), 13) & RSet(gyro.ToString("F2"), 7) _
-                & RSet(tow_bearing.ToString("F2"), 8) & RSet(fix.ToString("F2"), 9) & RSet(wd.ToString("F2"), 7)
+        Return day & " " & RSet(hhmmsss, 13) & " " & RSet(rec.ToString, 7) & " " & RSet(x.ToString("F2"), 12) & " " & RSet(y.ToString("F2"), 12) & " " & RSet(gyro.ToString("F2"), 6) _
+                & " " & RSet(tow_bearing.ToString("F2"), 7) & " " & RSet(fix.ToString("F2"), 8) & " " & wd.ToString("F2")
     End Function
 
     Public Function To_Mag_CNV_String() As String 'output_option 0 new

@@ -138,11 +138,11 @@ Partial Class Baseform
         Me.TabControl1.Controls.Add(Me.TabPage7)
         Me.TabControl1.Controls.Add(Me.TabPageAbout)
         Me.TabControl1.ItemSize = New System.Drawing.Size(62, 24)
-        Me.TabControl1.Location = New System.Drawing.Point(10, 10)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(1)
+        Me.TabControl1.Location = New System.Drawing.Point(15, 15)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(2)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(564, 537)
+        Me.TabControl1.Size = New System.Drawing.Size(846, 826)
         Me.TabControl1.TabIndex = 0
         '
         'TabPage1
@@ -155,9 +155,10 @@ Partial Class Baseform
         Me.TabPage1.Controls.Add(Me.T1B2)
         Me.TabPage1.Controls.Add(Me.T1B1)
         Me.TabPage1.Location = New System.Drawing.Point(4, 28)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(556, 505)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.TabPage1.Size = New System.Drawing.Size(838, 794)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Merge and Split CNV"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -167,9 +168,11 @@ Partial Class Baseform
         Me.T1GroupBox2.Controls.Add(Me.T1G2Label1)
         Me.T1GroupBox2.Controls.Add(Me.T1G2TextBox1)
         Me.T1GroupBox2.Controls.Add(Me.T1G2CheckBox1)
-        Me.T1GroupBox2.Location = New System.Drawing.Point(7, 171)
+        Me.T1GroupBox2.Location = New System.Drawing.Point(10, 263)
+        Me.T1GroupBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1GroupBox2.Name = "T1GroupBox2"
-        Me.T1GroupBox2.Size = New System.Drawing.Size(176, 84)
+        Me.T1GroupBox2.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.T1GroupBox2.Size = New System.Drawing.Size(264, 129)
         Me.T1GroupBox2.TabIndex = 6
         Me.T1GroupBox2.TabStop = False
         Me.T1GroupBox2.Text = "CMG"
@@ -177,19 +180,21 @@ Partial Class Baseform
         'T1G2Label1
         '
         Me.T1G2Label1.AutoSize = True
-        Me.T1G2Label1.Location = New System.Drawing.Point(4, 39)
+        Me.T1G2Label1.Location = New System.Drawing.Point(6, 60)
+        Me.T1G2Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.T1G2Label1.Name = "T1G2Label1"
-        Me.T1G2Label1.Size = New System.Drawing.Size(164, 13)
+        Me.T1G2Label1.Size = New System.Drawing.Size(244, 20)
         Me.T1G2Label1.TabIndex = 7
         Me.T1G2Label1.Text = "Smooth Window Size (Triangular)"
         '
         'T1G2TextBox1
         '
         Me.T1G2TextBox1.AccessibleDescription = ""
-        Me.T1G2TextBox1.Location = New System.Drawing.Point(6, 55)
+        Me.T1G2TextBox1.Location = New System.Drawing.Point(9, 85)
+        Me.T1G2TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1G2TextBox1.MaxLength = 4
         Me.T1G2TextBox1.Name = "T1G2TextBox1"
-        Me.T1G2TextBox1.Size = New System.Drawing.Size(40, 20)
+        Me.T1G2TextBox1.Size = New System.Drawing.Size(58, 26)
         Me.T1G2TextBox1.TabIndex = 6
         Me.T1G2TextBox1.Text = "81"
         Me.T1G2TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -200,9 +205,10 @@ Partial Class Baseform
         Me.T1G2CheckBox1.Checked = True
         Me.T1G2CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
         Me.T1G2CheckBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.T1G2CheckBox1.Location = New System.Drawing.Point(6, 19)
+        Me.T1G2CheckBox1.Location = New System.Drawing.Point(9, 29)
+        Me.T1G2CheckBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1G2CheckBox1.Name = "T1G2CheckBox1"
-        Me.T1G2CheckBox1.Size = New System.Drawing.Size(140, 17)
+        Me.T1G2CheckBox1.Size = New System.Drawing.Size(205, 24)
         Me.T1G2CheckBox1.TabIndex = 5
         Me.T1G2CheckBox1.Text = "ReCalc CMG when Split"
         Me.T1G2CheckBox1.UseVisualStyleBackColor = True
@@ -211,9 +217,11 @@ Partial Class Baseform
         '
         Me.T1GroupBox1.Controls.Add(Me.T1G1RadioButton2)
         Me.T1GroupBox1.Controls.Add(Me.T1G1RadioButton1)
-        Me.T1GroupBox1.Location = New System.Drawing.Point(7, 90)
+        Me.T1GroupBox1.Location = New System.Drawing.Point(10, 138)
+        Me.T1GroupBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1GroupBox1.Name = "T1GroupBox1"
-        Me.T1GroupBox1.Size = New System.Drawing.Size(176, 74)
+        Me.T1GroupBox1.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.T1GroupBox1.Size = New System.Drawing.Size(264, 114)
         Me.T1GroupBox1.TabIndex = 4
         Me.T1GroupBox1.TabStop = False
         Me.T1GroupBox1.Text = "Input CNV type"
@@ -221,9 +229,10 @@ Partial Class Baseform
         'T1G1RadioButton2
         '
         Me.T1G1RadioButton2.AutoSize = True
-        Me.T1G1RadioButton2.Location = New System.Drawing.Point(7, 43)
+        Me.T1G1RadioButton2.Location = New System.Drawing.Point(10, 66)
+        Me.T1G1RadioButton2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1G1RadioButton2.Name = "T1G1RadioButton2"
-        Me.T1G1RadioButton2.Size = New System.Drawing.Size(85, 17)
+        Me.T1G1RadioButton2.Size = New System.Drawing.Size(123, 24)
         Me.T1G1RadioButton2.TabIndex = 1
         Me.T1G1RadioButton2.Text = "Maglog CNV"
         Me.T1G1RadioButton2.UseVisualStyleBackColor = True
@@ -232,9 +241,10 @@ Partial Class Baseform
         '
         Me.T1G1RadioButton1.AutoSize = True
         Me.T1G1RadioButton1.Checked = True
-        Me.T1G1RadioButton1.Location = New System.Drawing.Point(7, 20)
+        Me.T1G1RadioButton1.Location = New System.Drawing.Point(10, 31)
+        Me.T1G1RadioButton1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1G1RadioButton1.Name = "T1G1RadioButton1"
-        Me.T1G1RadioButton1.Size = New System.Drawing.Size(83, 17)
+        Me.T1G1RadioButton1.Size = New System.Drawing.Size(121, 24)
         Me.T1G1RadioButton1.TabIndex = 0
         Me.T1G1RadioButton1.TabStop = True
         Me.T1G1RadioButton1.Text = "C-View CNV"
@@ -244,9 +254,10 @@ Partial Class Baseform
         '
         Me.T1BX.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.T1BX.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T1BX.Location = New System.Drawing.Point(3, 422)
+        Me.T1BX.Location = New System.Drawing.Point(4, 649)
+        Me.T1BX.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1BX.Name = "T1BX"
-        Me.T1BX.Size = New System.Drawing.Size(180, 80)
+        Me.T1BX.Size = New System.Drawing.Size(270, 123)
         Me.T1BX.TabIndex = 3
         Me.T1BX.Text = "Exit (&X)"
         Me.T1BX.UseVisualStyleBackColor = True
@@ -258,11 +269,12 @@ Partial Class Baseform
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.T1TextBox1.BackColor = System.Drawing.SystemColors.Window
         Me.T1TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.T1TextBox1.Location = New System.Drawing.Point(189, 3)
+        Me.T1TextBox1.Location = New System.Drawing.Point(284, 5)
+        Me.T1TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1TextBox1.Multiline = True
         Me.T1TextBox1.Name = "T1TextBox1"
         Me.T1TextBox1.ReadOnly = True
-        Me.T1TextBox1.Size = New System.Drawing.Size(364, 80)
+        Me.T1TextBox1.Size = New System.Drawing.Size(545, 122)
         Me.T1TextBox1.TabIndex = 0
         '
         'T1ListBox1
@@ -273,17 +285,20 @@ Partial Class Baseform
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.T1ListBox1.FormattingEnabled = True
         Me.T1ListBox1.IntegralHeight = False
-        Me.T1ListBox1.Location = New System.Drawing.Point(189, 89)
+        Me.T1ListBox1.ItemHeight = 20
+        Me.T1ListBox1.Location = New System.Drawing.Point(284, 137)
+        Me.T1ListBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1ListBox1.Name = "T1ListBox1"
-        Me.T1ListBox1.Size = New System.Drawing.Size(364, 413)
+        Me.T1ListBox1.Size = New System.Drawing.Size(544, 633)
         Me.T1ListBox1.TabIndex = 2
         '
         'T1B2
         '
         Me.T1B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
-        Me.T1B2.Location = New System.Drawing.Point(103, 3)
+        Me.T1B2.Location = New System.Drawing.Point(154, 5)
+        Me.T1B2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1B2.Name = "T1B2"
-        Me.T1B2.Size = New System.Drawing.Size(80, 80)
+        Me.T1B2.Size = New System.Drawing.Size(120, 123)
         Me.T1B2.TabIndex = 1
         Me.T1B2.Text = "&Split CNV"
         Me.T1B2.UseVisualStyleBackColor = True
@@ -291,9 +306,10 @@ Partial Class Baseform
         'T1B1
         '
         Me.T1B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
-        Me.T1B1.Location = New System.Drawing.Point(3, 3)
+        Me.T1B1.Location = New System.Drawing.Point(4, 5)
+        Me.T1B1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T1B1.Name = "T1B1"
-        Me.T1B1.Size = New System.Drawing.Size(80, 80)
+        Me.T1B1.Size = New System.Drawing.Size(120, 123)
         Me.T1B1.TabIndex = 0
         Me.T1B1.Text = "&Merge CNV"
         Me.T1B1.UseVisualStyleBackColor = True
@@ -312,9 +328,10 @@ Partial Class Baseform
         Me.TabPage2.Controls.Add(Me.T2B1)
         Me.TabPage2.Controls.Add(Me.T2ListBox1)
         Me.TabPage2.Location = New System.Drawing.Point(4, 28)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(556, 505)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.TabPage2.Size = New System.Drawing.Size(838, 794)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "CNV File"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -322,19 +339,21 @@ Partial Class Baseform
         'T2Label1
         '
         Me.T2Label1.AutoSize = True
-        Me.T2Label1.Location = New System.Drawing.Point(3, 355)
+        Me.T2Label1.Location = New System.Drawing.Point(4, 546)
+        Me.T2Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.T2Label1.Name = "T2Label1"
-        Me.T2Label1.Size = New System.Drawing.Size(164, 13)
+        Me.T2Label1.Size = New System.Drawing.Size(244, 20)
         Me.T2Label1.TabIndex = 9
         Me.T2Label1.Text = "Smooth Window Size (Triangular)"
         '
         'T2TextBox1
         '
         Me.T2TextBox1.AccessibleDescription = ""
-        Me.T2TextBox1.Location = New System.Drawing.Point(3, 371)
+        Me.T2TextBox1.Location = New System.Drawing.Point(4, 571)
+        Me.T2TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T2TextBox1.MaxLength = 4
         Me.T2TextBox1.Name = "T2TextBox1"
-        Me.T2TextBox1.Size = New System.Drawing.Size(40, 20)
+        Me.T2TextBox1.Size = New System.Drawing.Size(58, 26)
         Me.T2TextBox1.TabIndex = 8
         Me.T2TextBox1.Text = "81"
         Me.T2TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -342,9 +361,10 @@ Partial Class Baseform
         'T2B6
         '
         Me.T2B6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T2B6.Location = New System.Drawing.Point(3, 289)
+        Me.T2B6.Location = New System.Drawing.Point(4, 445)
+        Me.T2B6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T2B6.Name = "T2B6"
-        Me.T2B6.Size = New System.Drawing.Size(180, 63)
+        Me.T2B6.Size = New System.Drawing.Size(270, 97)
         Me.T2B6.TabIndex = 7
         Me.T2B6.Text = "ReCalc and Smooth Heading to CMG in CNV files"
         Me.T2B6.UseVisualStyleBackColor = True
@@ -352,9 +372,10 @@ Partial Class Baseform
         'T2B5
         '
         Me.T2B5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T2B5.Location = New System.Drawing.Point(3, 227)
+        Me.T2B5.Location = New System.Drawing.Point(4, 349)
+        Me.T2B5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T2B5.Name = "T2B5"
-        Me.T2B5.Size = New System.Drawing.Size(180, 40)
+        Me.T2B5.Size = New System.Drawing.Size(270, 62)
         Me.T2B5.TabIndex = 6
         Me.T2B5.Text = "Export to TP"
         Me.T2B5.UseVisualStyleBackColor = True
@@ -362,9 +383,10 @@ Partial Class Baseform
         'T2B4
         '
         Me.T2B4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T2B4.Location = New System.Drawing.Point(3, 181)
+        Me.T2B4.Location = New System.Drawing.Point(4, 278)
+        Me.T2B4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T2B4.Name = "T2B4"
-        Me.T2B4.Size = New System.Drawing.Size(180, 40)
+        Me.T2B4.Size = New System.Drawing.Size(270, 62)
         Me.T2B4.TabIndex = 5
         Me.T2B4.Text = "Export to SCR"
         Me.T2B4.UseVisualStyleBackColor = True
@@ -373,9 +395,10 @@ Partial Class Baseform
         '
         Me.T2BX.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.T2BX.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T2BX.Location = New System.Drawing.Point(3, 422)
+        Me.T2BX.Location = New System.Drawing.Point(4, 649)
+        Me.T2BX.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T2BX.Name = "T2BX"
-        Me.T2BX.Size = New System.Drawing.Size(180, 80)
+        Me.T2BX.Size = New System.Drawing.Size(270, 123)
         Me.T2BX.TabIndex = 4
         Me.T2BX.Text = "Exit (&X)"
         Me.T2BX.UseVisualStyleBackColor = True
@@ -383,9 +406,10 @@ Partial Class Baseform
         'T2B3
         '
         Me.T2B3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T2B3.Location = New System.Drawing.Point(3, 95)
+        Me.T2B3.Location = New System.Drawing.Point(4, 146)
+        Me.T2B3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T2B3.Name = "T2B3"
-        Me.T2B3.Size = New System.Drawing.Size(180, 80)
+        Me.T2B3.Size = New System.Drawing.Size(270, 123)
         Me.T2B3.TabIndex = 3
         Me.T2B3.Text = "Convert Filtered CNV to Maggy CNV for XTF Exported Raw"
         Me.T2B3.UseVisualStyleBackColor = True
@@ -393,9 +417,10 @@ Partial Class Baseform
         'T2B2
         '
         Me.T2B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T2B2.Location = New System.Drawing.Point(3, 49)
+        Me.T2B2.Location = New System.Drawing.Point(4, 75)
+        Me.T2B2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T2B2.Name = "T2B2"
-        Me.T2B2.Size = New System.Drawing.Size(180, 40)
+        Me.T2B2.Size = New System.Drawing.Size(270, 62)
         Me.T2B2.TabIndex = 2
         Me.T2B2.Text = "Export to PC (Thin PUFI)"
         Me.T2B2.UseVisualStyleBackColor = True
@@ -403,9 +428,10 @@ Partial Class Baseform
         'T2B1
         '
         Me.T2B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T2B1.Location = New System.Drawing.Point(3, 3)
+        Me.T2B1.Location = New System.Drawing.Point(4, 5)
+        Me.T2B1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T2B1.Name = "T2B1"
-        Me.T2B1.Size = New System.Drawing.Size(180, 40)
+        Me.T2B1.Size = New System.Drawing.Size(270, 62)
         Me.T2B1.TabIndex = 1
         Me.T2B1.Text = "Export to PC (Full PUFI)"
         Me.T2B1.UseVisualStyleBackColor = True
@@ -418,9 +444,11 @@ Partial Class Baseform
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.T2ListBox1.FormattingEnabled = True
         Me.T2ListBox1.IntegralHeight = False
-        Me.T2ListBox1.Location = New System.Drawing.Point(189, 3)
+        Me.T2ListBox1.ItemHeight = 20
+        Me.T2ListBox1.Location = New System.Drawing.Point(284, 5)
+        Me.T2ListBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T2ListBox1.Name = "T2ListBox1"
-        Me.T2ListBox1.Size = New System.Drawing.Size(364, 499)
+        Me.T2ListBox1.Size = New System.Drawing.Size(544, 766)
         Me.T2ListBox1.TabIndex = 0
         '
         'TabPage3
@@ -432,8 +460,9 @@ Partial Class Baseform
         Me.TabPage3.Controls.Add(Me.T3B2)
         Me.TabPage3.Controls.Add(Me.T3B1)
         Me.TabPage3.Location = New System.Drawing.Point(4, 28)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(556, 505)
+        Me.TabPage3.Size = New System.Drawing.Size(838, 794)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "XYZ Convertor"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -441,9 +470,10 @@ Partial Class Baseform
         'T3B3
         '
         Me.T3B3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T3B3.Location = New System.Drawing.Point(3, 175)
+        Me.T3B3.Location = New System.Drawing.Point(4, 269)
+        Me.T3B3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T3B3.Name = "T3B3"
-        Me.T3B3.Size = New System.Drawing.Size(180, 80)
+        Me.T3B3.Size = New System.Drawing.Size(270, 123)
         Me.T3B3.TabIndex = 6
         Me.T3B3.Text = "Invert XYZ"
         Me.T3B3.UseVisualStyleBackColor = True
@@ -451,9 +481,10 @@ Partial Class Baseform
         'T3B4
         '
         Me.T3B4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T3B4.Location = New System.Drawing.Point(3, 261)
+        Me.T3B4.Location = New System.Drawing.Point(4, 402)
+        Me.T3B4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T3B4.Name = "T3B4"
-        Me.T3B4.Size = New System.Drawing.Size(180, 80)
+        Me.T3B4.Size = New System.Drawing.Size(270, 123)
         Me.T3B4.TabIndex = 5
         Me.T3B4.Text = "GDAL ASCII Gridded XYZ"
         Me.T3B4.UseVisualStyleBackColor = True
@@ -466,18 +497,21 @@ Partial Class Baseform
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.T3ListBox1.FormattingEnabled = True
         Me.T3ListBox1.IntegralHeight = False
-        Me.T3ListBox1.Location = New System.Drawing.Point(189, 3)
+        Me.T3ListBox1.ItemHeight = 20
+        Me.T3ListBox1.Location = New System.Drawing.Point(284, 5)
+        Me.T3ListBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T3ListBox1.Name = "T3ListBox1"
-        Me.T3ListBox1.Size = New System.Drawing.Size(364, 499)
+        Me.T3ListBox1.Size = New System.Drawing.Size(544, 766)
         Me.T3ListBox1.TabIndex = 3
         '
         'T3BX
         '
         Me.T3BX.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.T3BX.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T3BX.Location = New System.Drawing.Point(3, 422)
+        Me.T3BX.Location = New System.Drawing.Point(4, 649)
+        Me.T3BX.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T3BX.Name = "T3BX"
-        Me.T3BX.Size = New System.Drawing.Size(180, 80)
+        Me.T3BX.Size = New System.Drawing.Size(270, 123)
         Me.T3BX.TabIndex = 2
         Me.T3BX.Text = "Exit (&X)"
         Me.T3BX.UseVisualStyleBackColor = True
@@ -485,9 +519,10 @@ Partial Class Baseform
         'T3B2
         '
         Me.T3B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T3B2.Location = New System.Drawing.Point(3, 89)
+        Me.T3B2.Location = New System.Drawing.Point(4, 137)
+        Me.T3B2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T3B2.Name = "T3B2"
-        Me.T3B2.Size = New System.Drawing.Size(180, 80)
+        Me.T3B2.Size = New System.Drawing.Size(270, 123)
         Me.T3B2.TabIndex = 1
         Me.T3B2.Text = "Convert to ESRI ASCII Grid (ASC)"
         Me.T3B2.UseVisualStyleBackColor = True
@@ -495,9 +530,10 @@ Partial Class Baseform
         'T3B1
         '
         Me.T3B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T3B1.Location = New System.Drawing.Point(3, 3)
+        Me.T3B1.Location = New System.Drawing.Point(4, 5)
+        Me.T3B1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T3B1.Name = "T3B1"
-        Me.T3B1.Size = New System.Drawing.Size(180, 80)
+        Me.T3B1.Size = New System.Drawing.Size(270, 123)
         Me.T3B1.TabIndex = 0
         Me.T3B1.Text = "Convert to ESRI Binary Grid (FLT+HDR)"
         Me.T3B1.UseVisualStyleBackColor = True
@@ -509,8 +545,9 @@ Partial Class Baseform
         Me.TabPage4.Controls.Add(Me.T4BX)
         Me.TabPage4.Controls.Add(Me.T4B1)
         Me.TabPage4.Location = New System.Drawing.Point(4, 28)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(556, 505)
+        Me.TabPage4.Size = New System.Drawing.Size(838, 794)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "GeoImage"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -518,9 +555,10 @@ Partial Class Baseform
         'T4B2
         '
         Me.T4B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T4B2.Location = New System.Drawing.Point(3, 89)
+        Me.T4B2.Location = New System.Drawing.Point(4, 137)
+        Me.T4B2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T4B2.Name = "T4B2"
-        Me.T4B2.Size = New System.Drawing.Size(180, 80)
+        Me.T4B2.Size = New System.Drawing.Size(270, 123)
         Me.T4B2.TabIndex = 3
         Me.T4B2.Text = "&Import to AutoCAD Active Layer"
         Me.T4B2.UseVisualStyleBackColor = True
@@ -533,19 +571,22 @@ Partial Class Baseform
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.T4ListBox1.FormattingEnabled = True
         Me.T4ListBox1.IntegralHeight = False
-        Me.T4ListBox1.Location = New System.Drawing.Point(189, 3)
+        Me.T4ListBox1.ItemHeight = 20
+        Me.T4ListBox1.Location = New System.Drawing.Point(284, 5)
+        Me.T4ListBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T4ListBox1.Name = "T4ListBox1"
         Me.T4ListBox1.SelectionMode = System.Windows.Forms.SelectionMode.None
-        Me.T4ListBox1.Size = New System.Drawing.Size(364, 499)
+        Me.T4ListBox1.Size = New System.Drawing.Size(544, 766)
         Me.T4ListBox1.TabIndex = 2
         '
         'T4BX
         '
         Me.T4BX.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.T4BX.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T4BX.Location = New System.Drawing.Point(3, 422)
+        Me.T4BX.Location = New System.Drawing.Point(4, 649)
+        Me.T4BX.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T4BX.Name = "T4BX"
-        Me.T4BX.Size = New System.Drawing.Size(180, 80)
+        Me.T4BX.Size = New System.Drawing.Size(270, 123)
         Me.T4BX.TabIndex = 1
         Me.T4BX.Text = "Exit (&X)"
         Me.T4BX.UseVisualStyleBackColor = True
@@ -553,9 +594,10 @@ Partial Class Baseform
         'T4B1
         '
         Me.T4B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T4B1.Location = New System.Drawing.Point(3, 3)
+        Me.T4B1.Location = New System.Drawing.Point(4, 5)
+        Me.T4B1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T4B1.Name = "T4B1"
-        Me.T4B1.Size = New System.Drawing.Size(180, 80)
+        Me.T4B1.Size = New System.Drawing.Size(270, 123)
         Me.T4B1.TabIndex = 0
         Me.T4B1.Text = "&Generate TFW and Boundary SCR"
         Me.T4B1.UseVisualStyleBackColor = True
@@ -571,8 +613,9 @@ Partial Class Baseform
         Me.TabPage5.Controls.Add(Me.T5B2)
         Me.TabPage5.Controls.Add(Me.T5B1)
         Me.TabPage5.Location = New System.Drawing.Point(4, 28)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(556, 505)
+        Me.TabPage5.Size = New System.Drawing.Size(838, 794)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "PC File"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -580,9 +623,10 @@ Partial Class Baseform
         'T5B6
         '
         Me.T5B6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T5B6.Location = New System.Drawing.Point(3, 333)
+        Me.T5B6.Location = New System.Drawing.Point(4, 512)
+        Me.T5B6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T5B6.Name = "T5B6"
-        Me.T5B6.Size = New System.Drawing.Size(180, 60)
+        Me.T5B6.Size = New System.Drawing.Size(270, 92)
         Me.T5B6.TabIndex = 7
         Me.T5B6.Text = "Export PC PUFI to CNV (Raw)"
         Me.T5B6.UseVisualStyleBackColor = True
@@ -590,9 +634,10 @@ Partial Class Baseform
         'T5B5
         '
         Me.T5B5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T5B5.Location = New System.Drawing.Point(3, 267)
+        Me.T5B5.Location = New System.Drawing.Point(4, 411)
+        Me.T5B5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T5B5.Name = "T5B5"
-        Me.T5B5.Size = New System.Drawing.Size(180, 60)
+        Me.T5B5.Size = New System.Drawing.Size(270, 92)
         Me.T5B5.TabIndex = 6
         Me.T5B5.Text = "Merge Line to PC9 (Full data density)"
         Me.T5B5.UseVisualStyleBackColor = True
@@ -600,9 +645,10 @@ Partial Class Baseform
         'T5B4
         '
         Me.T5B4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T5B4.Location = New System.Drawing.Point(3, 201)
+        Me.T5B4.Location = New System.Drawing.Point(4, 309)
+        Me.T5B4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T5B4.Name = "T5B4"
-        Me.T5B4.Size = New System.Drawing.Size(180, 60)
+        Me.T5B4.Size = New System.Drawing.Size(270, 92)
         Me.T5B4.TabIndex = 5
         Me.T5B4.Text = "Merge and Thin to PC0 (Each fix)"
         Me.T5B4.UseVisualStyleBackColor = True
@@ -611,9 +657,10 @@ Partial Class Baseform
         '
         Me.T5BX.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.T5BX.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T5BX.Location = New System.Drawing.Point(3, 422)
+        Me.T5BX.Location = New System.Drawing.Point(4, 649)
+        Me.T5BX.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T5BX.Name = "T5BX"
-        Me.T5BX.Size = New System.Drawing.Size(180, 80)
+        Me.T5BX.Size = New System.Drawing.Size(270, 123)
         Me.T5BX.TabIndex = 4
         Me.T5BX.Text = "Exit (&X)"
         Me.T5BX.UseVisualStyleBackColor = True
@@ -621,9 +668,10 @@ Partial Class Baseform
         'T5B3
         '
         Me.T5B3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T5B3.Location = New System.Drawing.Point(3, 135)
+        Me.T5B3.Location = New System.Drawing.Point(4, 208)
+        Me.T5B3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T5B3.Name = "T5B3"
-        Me.T5B3.Size = New System.Drawing.Size(180, 60)
+        Me.T5B3.Size = New System.Drawing.Size(270, 92)
         Me.T5B3.TabIndex = 3
         Me.T5B3.Text = "Merge PC PUFI to SCR"
         Me.T5B3.UseVisualStyleBackColor = True
@@ -636,17 +684,20 @@ Partial Class Baseform
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.T5ListBox1.FormattingEnabled = True
         Me.T5ListBox1.IntegralHeight = False
-        Me.T5ListBox1.Location = New System.Drawing.Point(189, 3)
+        Me.T5ListBox1.ItemHeight = 20
+        Me.T5ListBox1.Location = New System.Drawing.Point(284, 5)
+        Me.T5ListBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T5ListBox1.Name = "T5ListBox1"
-        Me.T5ListBox1.Size = New System.Drawing.Size(364, 499)
+        Me.T5ListBox1.Size = New System.Drawing.Size(544, 766)
         Me.T5ListBox1.TabIndex = 2
         '
         'T5B2
         '
         Me.T5B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T5B2.Location = New System.Drawing.Point(3, 69)
+        Me.T5B2.Location = New System.Drawing.Point(4, 106)
+        Me.T5B2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T5B2.Name = "T5B2"
-        Me.T5B2.Size = New System.Drawing.Size(180, 60)
+        Me.T5B2.Size = New System.Drawing.Size(270, 92)
         Me.T5B2.TabIndex = 1
         Me.T5B2.Text = "Merge PC PUFI to TP"
         Me.T5B2.UseVisualStyleBackColor = True
@@ -654,9 +705,10 @@ Partial Class Baseform
         'T5B1
         '
         Me.T5B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T5B1.Location = New System.Drawing.Point(3, 3)
+        Me.T5B1.Location = New System.Drawing.Point(4, 5)
+        Me.T5B1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T5B1.Name = "T5B1"
-        Me.T5B1.Size = New System.Drawing.Size(180, 60)
+        Me.T5B1.Size = New System.Drawing.Size(270, 92)
         Me.T5B1.TabIndex = 0
         Me.T5B1.Text = "Export PC PUFI to TP (Individual files)"
         Me.T5B1.UseVisualStyleBackColor = True
@@ -675,8 +727,9 @@ Partial Class Baseform
         Me.TabPage6.Controls.Add(Me.T6BX)
         Me.TabPage6.Controls.Add(Me.T6B1)
         Me.TabPage6.Location = New System.Drawing.Point(4, 28)
+        Me.TabPage6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(556, 505)
+        Me.TabPage6.Size = New System.Drawing.Size(838, 794)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "SeismicMapping"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -684,9 +737,10 @@ Partial Class Baseform
         'T6B4
         '
         Me.T6B4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T6B4.Location = New System.Drawing.Point(3, 341)
+        Me.T6B4.Location = New System.Drawing.Point(4, 525)
+        Me.T6B4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6B4.Name = "T6B4"
-        Me.T6B4.Size = New System.Drawing.Size(180, 50)
+        Me.T6B4.Size = New System.Drawing.Size(270, 77)
         Me.T6B4.TabIndex = 12
         Me.T6B4.Text = "SBP Image to AutoCAD Active Layer"
         Me.T6B4.UseVisualStyleBackColor = True
@@ -694,9 +748,10 @@ Partial Class Baseform
         'T6B3
         '
         Me.T6B3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T6B3.Location = New System.Drawing.Point(3, 285)
+        Me.T6B3.Location = New System.Drawing.Point(4, 438)
+        Me.T6B3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6B3.Name = "T6B3"
-        Me.T6B3.Size = New System.Drawing.Size(180, 50)
+        Me.T6B3.Size = New System.Drawing.Size(270, 77)
         Me.T6B3.TabIndex = 11
         Me.T6B3.Text = "Get Fix Positions from Active Layer"
         Me.T6B3.UseVisualStyleBackColor = True
@@ -704,9 +759,10 @@ Partial Class Baseform
         'T6CheckBox1
         '
         Me.T6CheckBox1.AutoSize = True
-        Me.T6CheckBox1.Location = New System.Drawing.Point(6, 95)
+        Me.T6CheckBox1.Location = New System.Drawing.Point(9, 146)
+        Me.T6CheckBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6CheckBox1.Name = "T6CheckBox1"
-        Me.T6CheckBox1.Size = New System.Drawing.Size(122, 17)
+        Me.T6CheckBox1.Size = New System.Drawing.Size(180, 24)
         Me.T6CheckBox1.TabIndex = 10
         Me.T6CheckBox1.Text = "Enable PC File Input"
         Me.T6CheckBox1.UseVisualStyleBackColor = True
@@ -714,17 +770,19 @@ Partial Class Baseform
         'T6Label1
         '
         Me.T6Label1.AutoSize = True
-        Me.T6Label1.Location = New System.Drawing.Point(3, 79)
+        Me.T6Label1.Location = New System.Drawing.Point(4, 122)
+        Me.T6Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.T6Label1.Name = "T6Label1"
-        Me.T6Label1.Size = New System.Drawing.Size(106, 13)
+        Me.T6Label1.Size = New System.Drawing.Size(158, 20)
         Me.T6Label1.TabIndex = 9
         Me.T6Label1.Text = "Vertical exaggeration"
         '
         'T6TextBox2
         '
-        Me.T6TextBox2.Location = New System.Drawing.Point(119, 76)
+        Me.T6TextBox2.Location = New System.Drawing.Point(178, 117)
+        Me.T6TextBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6TextBox2.Name = "T6TextBox2"
-        Me.T6TextBox2.Size = New System.Drawing.Size(41, 20)
+        Me.T6TextBox2.Size = New System.Drawing.Size(60, 26)
         Me.T6TextBox2.TabIndex = 8
         Me.T6TextBox2.Text = "10"
         Me.T6TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -732,9 +790,10 @@ Partial Class Baseform
         'T6CheckBox2
         '
         Me.T6CheckBox2.AutoSize = True
-        Me.T6CheckBox2.Location = New System.Drawing.Point(0, 59)
+        Me.T6CheckBox2.Location = New System.Drawing.Point(0, 91)
+        Me.T6CheckBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6CheckBox2.Name = "T6CheckBox2"
-        Me.T6CheckBox2.Size = New System.Drawing.Size(160, 17)
+        Me.T6CheckBox2.Size = New System.Drawing.Size(231, 24)
         Me.T6CheckBox2.TabIndex = 7
         Me.T6CheckBox2.Text = "Overwrite previous result/file"
         Me.T6CheckBox2.UseVisualStyleBackColor = True
@@ -746,11 +805,9 @@ Partial Class Baseform
         Me.T6GroupBox1.Controls.Add(Me.T6G1Label1)
         Me.T6GroupBox1.Controls.Add(Me.T6B2)
         Me.T6GroupBox1.Enabled = False
-        Me.T6GroupBox1.Location = New System.Drawing.Point(4, 117)
-        Me.T6GroupBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.T6GroupBox1.Location = New System.Drawing.Point(6, 180)
         Me.T6GroupBox1.Name = "T6GroupBox1"
-        Me.T6GroupBox1.Padding = New System.Windows.Forms.Padding(2)
-        Me.T6GroupBox1.Size = New System.Drawing.Size(182, 163)
+        Me.T6GroupBox1.Size = New System.Drawing.Size(273, 251)
         Me.T6GroupBox1.TabIndex = 6
         Me.T6GroupBox1.TabStop = False
         Me.T6GroupBox1.Text = "For coast line / without RPL"
@@ -758,9 +815,10 @@ Partial Class Baseform
         'T6G1RadioButton2
         '
         Me.T6G1RadioButton2.AutoSize = True
-        Me.T6G1RadioButton2.Location = New System.Drawing.Point(8, 140)
+        Me.T6G1RadioButton2.Location = New System.Drawing.Point(12, 215)
+        Me.T6G1RadioButton2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6G1RadioButton2.Name = "T6G1RadioButton2"
-        Me.T6G1RadioButton2.Size = New System.Drawing.Size(83, 17)
+        Me.T6G1RadioButton2.Size = New System.Drawing.Size(122, 24)
         Me.T6G1RadioButton2.TabIndex = 8
         Me.T6G1RadioButton2.Text = "Right to Left"
         Me.T6G1RadioButton2.UseVisualStyleBackColor = True
@@ -769,9 +827,10 @@ Partial Class Baseform
         '
         Me.T6G1RadioButton1.AutoSize = True
         Me.T6G1RadioButton1.Checked = True
-        Me.T6G1RadioButton1.Location = New System.Drawing.Point(8, 117)
+        Me.T6G1RadioButton1.Location = New System.Drawing.Point(12, 180)
+        Me.T6G1RadioButton1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6G1RadioButton1.Name = "T6G1RadioButton1"
-        Me.T6G1RadioButton1.Size = New System.Drawing.Size(83, 17)
+        Me.T6G1RadioButton1.Size = New System.Drawing.Size(122, 24)
         Me.T6G1RadioButton1.TabIndex = 7
         Me.T6G1RadioButton1.TabStop = True
         Me.T6G1RadioButton1.Text = "Left to Right"
@@ -780,18 +839,20 @@ Partial Class Baseform
         'T6G1Label1
         '
         Me.T6G1Label1.AutoSize = True
-        Me.T6G1Label1.Location = New System.Drawing.Point(5, 101)
+        Me.T6G1Label1.Location = New System.Drawing.Point(8, 155)
+        Me.T6G1Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.T6G1Label1.Name = "T6G1Label1"
-        Me.T6G1Label1.Size = New System.Drawing.Size(105, 13)
+        Me.T6G1Label1.Size = New System.Drawing.Size(156, 20)
         Me.T6G1Label1.TabIndex = 6
         Me.T6G1Label1.Text = "Image draw direction"
         '
         'T6B2
         '
         Me.T6B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T6B2.Location = New System.Drawing.Point(1, 18)
+        Me.T6B2.Location = New System.Drawing.Point(2, 28)
+        Me.T6B2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6B2.Name = "T6B2"
-        Me.T6B2.Size = New System.Drawing.Size(180, 80)
+        Me.T6B2.Size = New System.Drawing.Size(270, 123)
         Me.T6B2.TabIndex = 5
         Me.T6B2.Text = "Create fenwdkpro by along track distance from PC file"
         Me.T6B2.UseVisualStyleBackColor = True
@@ -803,11 +864,12 @@ Partial Class Baseform
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.T6TextBox1.BackColor = System.Drawing.SystemColors.Window
         Me.T6TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.T6TextBox1.Location = New System.Drawing.Point(189, 3)
+        Me.T6TextBox1.Location = New System.Drawing.Point(284, 5)
+        Me.T6TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6TextBox1.Multiline = True
         Me.T6TextBox1.Name = "T6TextBox1"
         Me.T6TextBox1.ReadOnly = True
-        Me.T6TextBox1.Size = New System.Drawing.Size(364, 80)
+        Me.T6TextBox1.Size = New System.Drawing.Size(545, 122)
         Me.T6TextBox1.TabIndex = 4
         '
         'T6ListBox1
@@ -818,18 +880,21 @@ Partial Class Baseform
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.T6ListBox1.FormattingEnabled = True
         Me.T6ListBox1.IntegralHeight = False
-        Me.T6ListBox1.Location = New System.Drawing.Point(189, 89)
+        Me.T6ListBox1.ItemHeight = 20
+        Me.T6ListBox1.Location = New System.Drawing.Point(284, 137)
+        Me.T6ListBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6ListBox1.Name = "T6ListBox1"
-        Me.T6ListBox1.Size = New System.Drawing.Size(364, 413)
+        Me.T6ListBox1.Size = New System.Drawing.Size(544, 633)
         Me.T6ListBox1.TabIndex = 2
         '
         'T6BX
         '
         Me.T6BX.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.T6BX.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T6BX.Location = New System.Drawing.Point(3, 422)
+        Me.T6BX.Location = New System.Drawing.Point(4, 649)
+        Me.T6BX.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6BX.Name = "T6BX"
-        Me.T6BX.Size = New System.Drawing.Size(180, 80)
+        Me.T6BX.Size = New System.Drawing.Size(270, 123)
         Me.T6BX.TabIndex = 1
         Me.T6BX.Text = "Exit (&X)"
         Me.T6BX.UseVisualStyleBackColor = True
@@ -837,9 +902,10 @@ Partial Class Baseform
         'T6B1
         '
         Me.T6B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T6B1.Location = New System.Drawing.Point(3, 3)
+        Me.T6B1.Location = New System.Drawing.Point(4, 5)
+        Me.T6B1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T6B1.Name = "T6B1"
-        Me.T6B1.Size = New System.Drawing.Size(180, 50)
+        Me.T6B1.Size = New System.Drawing.Size(270, 77)
         Me.T6B1.TabIndex = 0
         Me.T6B1.Text = "Update fenwdkpro with Fix Positions"
         Me.T6B1.UseVisualStyleBackColor = True
@@ -857,9 +923,10 @@ Partial Class Baseform
         Me.TabPage7.Controls.Add(Me.T7B1)
         Me.TabPage7.Controls.Add(Me.T7ListBox1)
         Me.TabPage7.Location = New System.Drawing.Point(4, 28)
+        Me.TabPage7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage7.Size = New System.Drawing.Size(556, 505)
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.TabPage7.Size = New System.Drawing.Size(838, 794)
         Me.TabPage7.TabIndex = 6
         Me.TabPage7.Text = "PDF Maker"
         Me.TabPage7.UseVisualStyleBackColor = True
@@ -867,9 +934,10 @@ Partial Class Baseform
         'T7B2
         '
         Me.T7B2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T7B2.Location = New System.Drawing.Point(3, 49)
+        Me.T7B2.Location = New System.Drawing.Point(4, 75)
+        Me.T7B2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7B2.Name = "T7B2"
-        Me.T7B2.Size = New System.Drawing.Size(180, 40)
+        Me.T7B2.Size = New System.Drawing.Size(270, 62)
         Me.T7B2.TabIndex = 9
         Me.T7B2.Text = "Get SVP Info"
         Me.T7B2.UseVisualStyleBackColor = True
@@ -879,9 +947,11 @@ Partial Class Baseform
         Me.T7GroupBox1.Controls.Add(Me.T7G1RadioButton2)
         Me.T7GroupBox1.Controls.Add(Me.T7G1RadioButton1)
         Me.T7GroupBox1.Enabled = False
-        Me.T7GroupBox1.Location = New System.Drawing.Point(3, 187)
+        Me.T7GroupBox1.Location = New System.Drawing.Point(4, 288)
+        Me.T7GroupBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7GroupBox1.Name = "T7GroupBox1"
-        Me.T7GroupBox1.Size = New System.Drawing.Size(180, 72)
+        Me.T7GroupBox1.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.T7GroupBox1.Size = New System.Drawing.Size(270, 111)
         Me.T7GroupBox1.TabIndex = 8
         Me.T7GroupBox1.TabStop = False
         Me.T7GroupBox1.Text = "Export Excel..."
@@ -889,9 +959,10 @@ Partial Class Baseform
         'T7G1RadioButton2
         '
         Me.T7G1RadioButton2.AutoSize = True
-        Me.T7G1RadioButton2.Location = New System.Drawing.Point(7, 43)
+        Me.T7G1RadioButton2.Location = New System.Drawing.Point(10, 66)
+        Me.T7G1RadioButton2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7G1RadioButton2.Name = "T7G1RadioButton2"
-        Me.T7G1RadioButton2.Size = New System.Drawing.Size(72, 17)
+        Me.T7G1RadioButton2.Size = New System.Drawing.Size(106, 24)
         Me.T7G1RadioButton2.TabIndex = 1
         Me.T7G1RadioButton2.Text = "All Sheets"
         Me.T7G1RadioButton2.UseVisualStyleBackColor = True
@@ -900,9 +971,10 @@ Partial Class Baseform
         '
         Me.T7G1RadioButton1.AutoSize = True
         Me.T7G1RadioButton1.Checked = True
-        Me.T7G1RadioButton1.Location = New System.Drawing.Point(7, 20)
+        Me.T7G1RadioButton1.Location = New System.Drawing.Point(10, 31)
+        Me.T7G1RadioButton1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7G1RadioButton1.Name = "T7G1RadioButton1"
-        Me.T7G1RadioButton1.Size = New System.Drawing.Size(139, 17)
+        Me.T7G1RadioButton1.Size = New System.Drawing.Size(202, 24)
         Me.T7G1RadioButton1.TabIndex = 0
         Me.T7G1RadioButton1.TabStop = True
         Me.T7G1RadioButton1.Text = "Last Active Sheet/Chart"
@@ -911,9 +983,10 @@ Partial Class Baseform
         'T7CheckBox2
         '
         Me.T7CheckBox2.AutoSize = True
-        Me.T7CheckBox2.Location = New System.Drawing.Point(3, 164)
+        Me.T7CheckBox2.Location = New System.Drawing.Point(4, 252)
+        Me.T7CheckBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7CheckBox2.Name = "T7CheckBox2"
-        Me.T7CheckBox2.Size = New System.Drawing.Size(117, 17)
+        Me.T7CheckBox2.Size = New System.Drawing.Size(171, 24)
         Me.T7CheckBox2.TabIndex = 7
         Me.T7CheckBox2.Text = "Process Excel Files"
         Me.T7CheckBox2.UseVisualStyleBackColor = True
@@ -924,9 +997,11 @@ Partial Class Baseform
         Me.T7GroupBox2.Controls.Add(Me.T7G2RadioButton2)
         Me.T7GroupBox2.Controls.Add(Me.T7G2RadioButton1)
         Me.T7GroupBox2.Enabled = False
-        Me.T7GroupBox2.Location = New System.Drawing.Point(3, 288)
+        Me.T7GroupBox2.Location = New System.Drawing.Point(4, 443)
+        Me.T7GroupBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7GroupBox2.Name = "T7GroupBox2"
-        Me.T7GroupBox2.Size = New System.Drawing.Size(180, 91)
+        Me.T7GroupBox2.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.T7GroupBox2.Size = New System.Drawing.Size(270, 140)
         Me.T7GroupBox2.TabIndex = 6
         Me.T7GroupBox2.TabStop = False
         Me.T7GroupBox2.Text = "SVP Excel"
@@ -934,9 +1009,10 @@ Partial Class Baseform
         'T7G2CheckBox1
         '
         Me.T7G2CheckBox1.AutoSize = True
-        Me.T7G2CheckBox1.Location = New System.Drawing.Point(7, 67)
+        Me.T7G2CheckBox1.Location = New System.Drawing.Point(10, 103)
+        Me.T7G2CheckBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7G2CheckBox1.Name = "T7G2CheckBox1"
-        Me.T7G2CheckBox1.Size = New System.Drawing.Size(104, 17)
+        Me.T7G2CheckBox1.Size = New System.Drawing.Size(153, 24)
         Me.T7G2CheckBox1.TabIndex = 2
         Me.T7G2CheckBox1.Text = "Extract SVP Info"
         Me.T7G2CheckBox1.UseVisualStyleBackColor = True
@@ -944,9 +1020,10 @@ Partial Class Baseform
         'T7G2RadioButton2
         '
         Me.T7G2RadioButton2.AutoSize = True
-        Me.T7G2RadioButton2.Location = New System.Drawing.Point(7, 43)
+        Me.T7G2RadioButton2.Location = New System.Drawing.Point(10, 66)
+        Me.T7G2RadioButton2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7G2RadioButton2.Name = "T7G2RadioButton2"
-        Me.T7G2RadioButton2.Size = New System.Drawing.Size(116, 17)
+        Me.T7G2RadioButton2.Size = New System.Drawing.Size(172, 24)
         Me.T7G2RadioButton2.TabIndex = 1
         Me.T7G2RadioButton2.Text = "TE Subcom Format"
         Me.T7G2RadioButton2.UseVisualStyleBackColor = True
@@ -955,9 +1032,10 @@ Partial Class Baseform
         '
         Me.T7G2RadioButton1.AutoSize = True
         Me.T7G2RadioButton1.Checked = True
-        Me.T7G2RadioButton1.Location = New System.Drawing.Point(7, 20)
+        Me.T7G2RadioButton1.Location = New System.Drawing.Point(10, 31)
+        Me.T7G2RadioButton1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7G2RadioButton1.Name = "T7G2RadioButton1"
-        Me.T7G2RadioButton1.Size = New System.Drawing.Size(109, 17)
+        Me.T7G2RadioButton1.Size = New System.Drawing.Size(159, 24)
         Me.T7G2RadioButton1.TabIndex = 0
         Me.T7G2RadioButton1.TabStop = True
         Me.T7G2RadioButton1.Text = "ASN/NEC Format"
@@ -969,9 +1047,10 @@ Partial Class Baseform
         Me.T7CheckBox3.Checked = True
         Me.T7CheckBox3.CheckState = System.Windows.Forms.CheckState.Checked
         Me.T7CheckBox3.Enabled = False
-        Me.T7CheckBox3.Location = New System.Drawing.Point(3, 265)
+        Me.T7CheckBox3.Location = New System.Drawing.Point(4, 408)
+        Me.T7CheckBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7CheckBox3.Name = "T7CheckBox3"
-        Me.T7CheckBox3.Size = New System.Drawing.Size(139, 17)
+        Me.T7CheckBox3.Size = New System.Drawing.Size(203, 24)
         Me.T7CheckBox3.TabIndex = 5
         Me.T7CheckBox3.Text = "Treat Excel files as SVP"
         Me.T7CheckBox3.UseVisualStyleBackColor = True
@@ -979,9 +1058,10 @@ Partial Class Baseform
         'T7CheckBox1
         '
         Me.T7CheckBox1.AutoSize = True
-        Me.T7CheckBox1.Location = New System.Drawing.Point(3, 141)
+        Me.T7CheckBox1.Location = New System.Drawing.Point(4, 217)
+        Me.T7CheckBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7CheckBox1.Name = "T7CheckBox1"
-        Me.T7CheckBox1.Size = New System.Drawing.Size(133, 17)
+        Me.T7CheckBox1.Size = New System.Drawing.Size(194, 24)
         Me.T7CheckBox1.TabIndex = 4
         Me.T7CheckBox1.Text = "Overwrite existing PDF"
         Me.T7CheckBox1.UseVisualStyleBackColor = True
@@ -989,9 +1069,10 @@ Partial Class Baseform
         'T7B3
         '
         Me.T7B3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T7B3.Location = New System.Drawing.Point(3, 95)
+        Me.T7B3.Location = New System.Drawing.Point(4, 146)
+        Me.T7B3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7B3.Name = "T7B3"
-        Me.T7B3.Size = New System.Drawing.Size(180, 40)
+        Me.T7B3.Size = New System.Drawing.Size(270, 62)
         Me.T7B3.TabIndex = 3
         Me.T7B3.Text = "Remove Selected"
         Me.T7B3.UseVisualStyleBackColor = True
@@ -1000,9 +1081,10 @@ Partial Class Baseform
         '
         Me.T7BX.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.T7BX.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T7BX.Location = New System.Drawing.Point(3, 422)
+        Me.T7BX.Location = New System.Drawing.Point(4, 649)
+        Me.T7BX.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7BX.Name = "T7BX"
-        Me.T7BX.Size = New System.Drawing.Size(180, 80)
+        Me.T7BX.Size = New System.Drawing.Size(270, 123)
         Me.T7BX.TabIndex = 2
         Me.T7BX.Text = "Exit (&X)"
         Me.T7BX.UseVisualStyleBackColor = True
@@ -1010,9 +1092,10 @@ Partial Class Baseform
         'T7B1
         '
         Me.T7B1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.T7B1.Location = New System.Drawing.Point(3, 3)
+        Me.T7B1.Location = New System.Drawing.Point(4, 5)
+        Me.T7B1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7B1.Name = "T7B1"
-        Me.T7B1.Size = New System.Drawing.Size(180, 40)
+        Me.T7B1.Size = New System.Drawing.Size(270, 62)
         Me.T7B1.TabIndex = 1
         Me.T7B1.Text = "Start Convert"
         Me.T7B1.UseVisualStyleBackColor = True
@@ -1025,10 +1108,12 @@ Partial Class Baseform
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.T7ListBox1.FormattingEnabled = True
         Me.T7ListBox1.IntegralHeight = False
-        Me.T7ListBox1.Location = New System.Drawing.Point(189, 3)
+        Me.T7ListBox1.ItemHeight = 20
+        Me.T7ListBox1.Location = New System.Drawing.Point(284, 5)
+        Me.T7ListBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.T7ListBox1.Name = "T7ListBox1"
         Me.T7ListBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
-        Me.T7ListBox1.Size = New System.Drawing.Size(364, 499)
+        Me.T7ListBox1.Size = New System.Drawing.Size(544, 766)
         Me.T7ListBox1.TabIndex = 0
         '
         'TabPageAbout
@@ -1036,8 +1121,9 @@ Partial Class Baseform
         Me.TabPageAbout.Controls.Add(Me.LinkLabel1)
         Me.TabPageAbout.Controls.Add(Me.TATextBox1)
         Me.TabPageAbout.Location = New System.Drawing.Point(4, 28)
+        Me.TabPageAbout.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabPageAbout.Name = "TabPageAbout"
-        Me.TabPageAbout.Size = New System.Drawing.Size(556, 505)
+        Me.TabPageAbout.Size = New System.Drawing.Size(838, 794)
         Me.TabPageAbout.TabIndex = 7
         Me.TabPageAbout.Text = "About"
         Me.TabPageAbout.UseVisualStyleBackColor = True
@@ -1045,9 +1131,10 @@ Partial Class Baseform
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(3, 489)
+        Me.LinkLabel1.Location = New System.Drawing.Point(4, 752)
+        Me.LinkLabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(450, 13)
+        Me.LinkLabel1.Size = New System.Drawing.Size(658, 20)
         Me.LinkLabel1.TabIndex = 1
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Latest version: https://drive.google.com/open?id=1SjWL6970mbvCc-aSqMoVDI8DZkrbKub" &
@@ -1064,11 +1151,12 @@ Partial Class Baseform
         Me.TATextBox1.Enabled = False
         Me.TATextBox1.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TATextBox1.ImeMode = System.Windows.Forms.ImeMode.Off
-        Me.TATextBox1.Location = New System.Drawing.Point(3, 3)
+        Me.TATextBox1.Location = New System.Drawing.Point(4, 5)
+        Me.TATextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TATextBox1.Multiline = True
         Me.TATextBox1.Name = "TATextBox1"
         Me.TATextBox1.ReadOnly = True
-        Me.TATextBox1.Size = New System.Drawing.Size(550, 499)
+        Me.TATextBox1.Size = New System.Drawing.Size(823, 766)
         Me.TATextBox1.TabIndex = 0
         Me.TATextBox1.TabStop = False
         Me.TATextBox1.Text = resources.GetString("TATextBox1.Text")
@@ -1077,25 +1165,27 @@ Partial Class Baseform
         '
         Me.BaseProgressBar.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BaseProgressBar.Location = New System.Drawing.Point(10, 551)
+        Me.BaseProgressBar.Location = New System.Drawing.Point(15, 848)
+        Me.BaseProgressBar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BaseProgressBar.Name = "BaseProgressBar"
-        Me.BaseProgressBar.Size = New System.Drawing.Size(564, 23)
+        Me.BaseProgressBar.Size = New System.Drawing.Size(846, 35)
         Me.BaseProgressBar.TabIndex = 1
         '
         'Baseform
         '
         Me.AllowDrop = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(584, 586)
+        Me.ClientSize = New System.Drawing.Size(876, 902)
         Me.Controls.Add(Me.BaseProgressBar)
         Me.Controls.Add(Me.TabControl1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.MinimumSize = New System.Drawing.Size(400, 625)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MinimumSize = New System.Drawing.Size(589, 931)
         Me.Name = "Baseform"
         Me.Opacity = 0.95R
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Geo tools - v20230718"
+        Me.Text = "Geo tools - v20240726"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()

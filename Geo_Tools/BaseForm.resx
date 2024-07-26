@@ -152,6 +152,7 @@
 2023-05-30	Rebuild with Office 14 Interop
 2023-07-14	Rebuild with VS2022 .NET FW v4.8 and embed Office Interop library
 2023-07-18	Remove Office Interop library, use Late Binding method
+2024-07-26	Bugfix CNV.ToString function with -9999 WD
 =======================================================================================
 </value>
   </data>
