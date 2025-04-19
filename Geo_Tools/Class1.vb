@@ -125,6 +125,7 @@ Public Class XYZ ' a simply array with x y z , 3 element
     Public x As Long = -99
     Public y As Long = -99
     Public z As Single = -99.0F
+    Private z_updated As Boolean = False
 
     Public Sub Add(ByVal input As Double)
         Select Case True
@@ -134,11 +135,12 @@ Public Class XYZ ' a simply array with x y z , 3 element
                 y = CLng(input * 100)
             Case Else
                 z = CSng(input * -1)
+                z_updated = True
         End Select
     End Sub
 
     Public Function Count() As Byte
-        If z = -99.0F Then Return 0
+        If Not z_updated Then Return 0
         Return 3
     End Function
 

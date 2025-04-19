@@ -153,6 +153,7 @@
 2023-07-14	Rebuild with VS2022 .NET FW v4.8 and embed Office Interop library
 2023-07-18	Remove Office Interop library, use Late Binding method
 2024-07-26	Bugfix CNV.ToString function with -9999 WD
+2025-04-19	Bugfix XYZ class which was ignoring 99.00m WD value in XYZ/DTM
 =======================================================================================
 </value>
   </data>

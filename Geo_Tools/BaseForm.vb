@@ -70,9 +70,9 @@ Public Class Baseform
         listbox_file_exclude1 = "DUMMY"
         listbox_file_exclude2 = "DUMMY"
         ReDim listboxstring(12)
-        listboxstring(0) = "Double Click To browse Or Drag Raw CNV files Here"
+        listboxstring(0) = "Double Click To browse Or Drag DTM / XYZ files Here"
         listboxstring(1) = ""
-        listboxstring(2) = "This Function version Is v20190114"
+        listboxstring(2) = "This Function version Is v20250419"
         listboxstring(3) = ""
         listboxstring(4) = "CARIS EasyView support both Binary (FLT+HDR) And"
         listboxstring(5) = "ASCII (ASC) file As ESRI Grid input."
